@@ -2,14 +2,17 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var Sorter_1 = require("./Sorter");
 var LinkedList_1 = require("./LinkedList");
+// number
 // const numbersCollection = new NumbersCollection([50, 3, -5, 0]);
 // const sorter = new Sorter(numbersCollection);
 // sorter.sort();
 // console.log(numbersCollection.data);
+// character
 // const charactersCollection = new CharactersCollection('Xaayb');
 // const sorter = new Sorter(charactersCollection);
 // sorter.sort();
 // console.log(charactersCollection.data);
+// linkedList
 var linkedList = new LinkedList_1.LinkedList();
 linkedList.add(500);
 linkedList.add(-10);
