@@ -6,8 +6,9 @@ var Sorter = /** @class */ (function () {
         this.collection = collection;
     }
     Sorter.prototype.sort = function () {
-        for (var i = 0; i < this.collection.length; i++) {
-            for (var j = 0; j < this.collection.length - i - 1; j++) {
+        var length = this.collection.length;
+        for (var i = 0; i < length; i++) {
+            for (var j = 0; j < length - i - 1; j++) {
                 if (this.collection.compare(j, j + 1)) {
                     this.collection.swap(j, j + 1);
                 }
